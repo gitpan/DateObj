@@ -1,0 +1,6 @@
+Revision history for Perl extension DateObj.
+
+0.90.0  Fri Jan 17 11:15:00 2003
+	- First version with proper module makefiles, etc.
+	  DateTime makes its debut.
+

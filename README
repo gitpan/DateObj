@@ -1,0 +1,25 @@
+Date::Object README
+-------------------
+
+This package tries to provide an OO interface to date and time
+variables.  More importantly, it provides a way to deal with 
+dates as mathematical quantities in a form that is more natural
+and perhaps more accurate (in some ways).
+
+The main goal of this package was to provide a way to treat
+dates as numbers, and to do so accurately without much hassle.
+Which means you can increment dates with ++ and set the day to
+day + 10 and not worry about having to wrap the day for the 
+month, etc.
+
+Currently this package uses the perl ctime wrappers, so it suffers
+from the limitations of that package.  Additionally, it currently
+uses local time, so working with timezones might not work to as
+expected (although I hope to change that in the future).
+
+If you run into any problems, please just drop me an email.
+
+
+Thanks for trying it,
+Matt Luker
+<kostya@redstarhackers.com>

@@ -1,0 +1,14 @@
+COPYING
+Changes
+LICENSE-LGPL
+MANIFEST
+Makefile.PL
+README
+lib/Date/Object/Date.pm
+lib/Date/Object/DateStrFormat.pm
+lib/Date/Object/DateTime.pm
+lib/Date/Object/SecondsQuantity.pm
+lib/Date/Object/Time.pm
+t/01.t
+t/10-math.t
+t/11-range.t
